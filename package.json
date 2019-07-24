@@ -1,0 +1,22 @@
+{
+  "name": "laravelrajkotsite",
+  "version": "1.0.0",
+  "description": "Official Site of Laravel Rajkot",
+  "author": "Chintan Banugaria",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
