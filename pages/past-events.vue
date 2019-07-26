@@ -59,7 +59,7 @@
 	            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="#">Submit a Talk</a></li>
 	            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="#">Request a Talk / Workshop</a></li>
 	            </li>
-	            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100 lg:mb-0 mb-2" href="#">Contact Us</a></li>
+	            <!-- <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100 lg:mb-0 mb-2" href="#">Contact Us</a></li> -->
 	            <li class="hidden xl:block"><a
 	                class="font-semibold bg-laracolor hover:bg-laracolor text-white px-3 py-2 rounded-lg shadow-md hover:shadow-lg ml-4"
 	                href="#">Book Tickets</a></li>
