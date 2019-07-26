@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="lg:px-20 px-4 absolute top-0 left-0 w-full z-50 bg-headerdark">
+  <header class="lg:px-20 px-4 absolute top-0 left-0 w-full z-50 bg-headerdark">
     <div class="hidden xl:flex justify-between items-center py-2 border-b text-sm" style="border-color: rgba(255,255,255,.25)">
       <div class="">
         <ul class="flex text-white">
@@ -38,12 +38,11 @@
         </ul>
       </div>
     </div>
-
     <div class="w-full flex flex-wrap justify-between itmes-center py-4">
       <div class="flex justify-between items-center lg:w-auto">
-        <a href="#" class="text-white font-bold text-2xl">
+        <nuxt-link to="/" class="text-white font-bold text-2xl">
           <span class="text-laracolor">Laravel</span> Rajkot
-        </a>
+        </nuxt-link>
       </div>
 
       <label for="menu-toggle" class="pointer-cursor md:hidden block"><svg class="fill-current text-white"
@@ -56,7 +55,7 @@
       <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
         <nav>
           <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="#">Past Events</a></li>
+            <li><nuxt-link class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" to="/past-events">Past Events</nuxt-link></li>
             <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="#">Submit a Talk</a></li>
             <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="#">Request a Talk / Workshop</a></li>
             </li>
@@ -70,49 +69,51 @@
     </div>
   </header>
   <section class="relative bg-blue-700 px-4 lg:px-20 overflow-hidden h-screen flex items-center content-center">
-    <!-- <div>
-      <img src="images/cover-bg.jpg" alt=""
-        class="absolute top-0 left-0 z-0 bg-cover w-full h-full">
-    </div> -->
-    <div class="bg-cover absolute top-0 left-0 z-0 w-full h-full" style="background-image: url('images/cover-bg.jpg')"></div>
+      <div class="bg-cover absolute top-0 left-0 z-0 w-full h-full" style="background-image: url('images/cover-bg.jpg')"></div>
+      <div class="flex items-center content-center">
+        <div class="relative z-10 md:max-w-2xl px-6 py-4 rounded-lg text-center shadow-lg" style="background-color: rgba(252, 50, 43, .8)">
+          <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">Our next workshop</h4>
 
-    <div class="flex items-center content-center">
-      <div class="relative z-10 md:max-w-2xl px-6 py-4 rounded-lg text-center shadow-lg" style="background-color: rgba(252, 50, 43, .8)">
-       <!--  <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">Our next workshop</h4> -->
+          <span class="text-white text-3xl lg:text-4xl leading-relaxed tracking-wider">Docker - Do's and Dont's
+          </span>
+          <h4 class="font-normal text-white text-base lg:text-xl mt-6 mb-4"> <a href="https://twitter.com/deltasquare4" target="_blank" class="underline">Rakshit</a> will show you the tips and trick to dockerize your application, <span class="text-2xl">the correct way.</span> </h4>
 
-        <span class="text-white text-2xl lg:text-4xl leading-relaxed tracking-wider">Docker - Do's and Dont's
-        </span>
-        <h4 class="font-normal text-white text-xl mt-6 mb-4"> <a href="https://twitter.com/deltasquare4" target="_blank" class="underline">Rakshit</a> will show you the tips and trick to dockerize your application, <span class="text-2xl">the correct way.</span> </h4>
-
-        <span class="font-normal text-white text-base mt-8 tracking-wider"> 11th August 2019 | <a href="https://www.google.com/maps/place/Improwised+Technologies+Private+Limited./@22.2856467,70.7560754,15z/data=!4m5!3m4!1s0x0:0x23edc234940c18b2!8m2!3d22.2856467!4d70.7560754" target="_blank" class="tracking-wider">Improwised Technologies Private Limited</a> </span>
-        <a href="#"
-          class="inline-block bg-white hover:bg-white text-laracolor pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg">
-          <div class="flex items-center">
-            <span>Book Your Spot Now (Limited Seats only)</span>
-            <div class="w-8 h-8 bg-laracolor text-white text-center rounded-lg p-1 ml-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current" viewBox="0 0 24 24">
-                <path
-                  d="M11.293 17.293L12.707 18.707 19.414 12 12.707 5.293 11.293 6.707 15.586 11 6 11 6 13 15.586 13z" />
-              </svg>
+          <span class="font-normal text-white text-sm lg:text-base mt-8 tracking-none"> on <span class="inline-block bg-white pl-4 pr-2 py-2 text-headerdark rounded-lg font-bold"> 11th August 2019 </span>
+          <br/>
+          at
+          <span class="inline-block bg-white pl-4 pr-2 py-2 mt-2 text-headerdark rounded-lg font-bold">
+           <a href="https://www.google.com/maps/place/Improwised+Technologies+Private+Limited./@22.2856467,70.7560754,15z/data=!4m5!3m4!1s0x0:0x23edc234940c18b2!8m2!3d22.2856467!4d70.7560754" target="_blank" class="tracking-wider">Improwised Technologies Private Limited</a>
+         </span>
+          <br/>
+          from <span class="inline-block bg-white pl-4 pr-2 py-2 mt-2 text-headerdark rounded-lg font-bold">10:00 am</span>
+          </span>
+          <br/>
+          <a href="#"
+            class="inline-block bg-white hover:bg-white text-laracolor pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg">
+            <div class="flex items-center">
+              <span>Book Your Spot Now (Limited Seats)</span>
+              <div class="w-8 h-8 bg-laracolor text-white text-center rounded-lg p-1 ml-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                  <path
+                    d="M11.293 17.293L12.707 18.707 19.414 12 12.707 5.293 11.293 6.707 15.586 11 6 11 6 13 15.586 13z" />
+                </svg>
+              </div>
             </div>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    
+          </a>
+        </div>
+      </div> 
   </section>
-   <section class="relative bg-headerdark text-white py-20 px-4 lg:px-20">
-    <div class="w-full flex flex-wrap lg:flex-row lg:-mx-16">
+   <section class="relative flex flex-col lg:flex-row">
+    <div class="w-full lg:w-3/4 flex flex-wrap bg-headerdark text-white py-20 px-4 lg:px-20 lg:flex-row ">
       <div class="w-full lg:w-1/2 lg:px-16">
         <h6 class="uppercase text-sm text-gray-700 font-semibold tracking-wider">Our Next <span class="text-laracolor">Workshop</span></h6>
         <h2 class="text-3xl font-semibold leading-tight mt-6">Docker - Do's and Dont's</h2>
         <h2 class="text-xl font-medium leading-tight mt-6">
           <img slot="icon" src="https://avatars.io/twitter/deltasquare4" class="avatar rounded">
           by
-    <a href="https://twitter.com/deltasquare4" target="_blank">
-     Rakshit Mendpara
-    </a>
+          <a href="https://twitter.com/deltasquare4" target="_blank">
+           Rakshit Menpara
+          </a>
         </h2>
 
         <p class="text-gray-700 mt-2 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -124,10 +125,7 @@
       <div class="w-full lg:w-1/2 lg:px-16 mt-16 lg:mt-0">
         <div class="w-full md:flex md:flex-row lg:flex-col md:-mx-4 lg:mx-0">
         <div class="flex md:w-1/2 lg:w-full md:mx-4 lg:mx-0">
-          <div>
-            <div class="w-12 h-12 bg-blue-500 rounded-full"></div>
-          </div>
-          <div class="ml-4">
+          <div class="">
             <h3 class="text-xl">Workshop Outline</h3>
             <p class="mt-2 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -147,9 +145,9 @@
         </div>
       </div>
       </div>
-      <div class="flex md:w-1/2 lg:w-full md:mx-4 lg:mx-0 mt-12 md:mt-0 lg:mt-12 text-center justify-center">
+      <div class="flex w-full md:w-1/2 lg:w-full md:mx-4 lg:mx-0 mt-12 md:mt-0 lg:mt-12 text-center justify-center">
           <a href="#"
-          class="inline-block bg-laracolor hover:bg-white text-white pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg">
+          class="inline-block bg-laracolor hover:bg-laracolor text-white pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg">
           <div class="flex items-center">
             <span>Book Tickets</span>
             <div class="w-8 h-8 bg-white text-laracolor text-center rounded-lg p-1 ml-4">
@@ -160,6 +158,34 @@
             </div>
           </div>
         </a>
+        </div>
+    </div>
+    <div class="w-full lg:w-1/4 flex flex-wrap bg-laracolor text-white py-20 px-4 lg:px-10 lg:flex-row justify-center text-center ">
+        <div class="w-full  flex flex-col">
+          <h4 class="font-normal font-bold text-white text-xl leading-relaxed tracking-wider">Schedule</h4>
+            <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6  shadow-md hover:shadow-lg text-center justify-center dotted">
+              <span>
+              10:00 am - 10:30 am 
+              <br/>
+              <span class="text-headerdark">Registration</span>
+              </span>
+            </div>
+            
+            <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 shadow-md hover:shadow-lg text-center justify-center">
+              <span>
+              10:30 am - 12:30 am 
+              <br/>
+              <span class="text-headerdark">Docker - Do's and Dont's</span>
+              </span>
+            </div>
+            <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 shadow-md hover:shadow-lg text-center justify-center">
+              <span>
+              12:30 am - 1:30 am 
+              <br/>
+              <span class="text-headerdark">Q and A (open house)</span>
+              </span>
+            </div>
+            
         </div>
     </div>
   </section>
@@ -227,8 +253,22 @@ export default {
     span.arrow:hover .arrow_icon svg {
       transform: translateX(0.75em);
     }
-    .avatar {
-  height: 5rem !important;
-  width: 5rem !important;
+  .avatar {
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+  .dotted:after {
+    content:"";
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    height: 100%;
+    height: inherit;
+    border-left: 2px dotted white;
+}
+
+.dotted {
+    position: relative;
 }
   </style>
