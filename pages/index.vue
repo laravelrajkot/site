@@ -11,7 +11,7 @@
       <div class="">
         <ul class="flex justify-end text-white">
           <li>
-            <a href="#" target="_blank" title="">
+            <a href="https://www.facebook.com/LaravelRajkot/" target="_blank" title="">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
                 <path
                   d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20  c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z" />
@@ -20,7 +20,7 @@
           </li>
 
           <li class="ml-6">
-            <a href="#" target="_blank" title="">
+            <a href="https://twitter.com/LaravelRajkot" target="_blank" title="">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
                 <path
                   d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05  c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032  c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22  c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z" />
@@ -28,7 +28,7 @@
             </a>
           </li>
           <li class="ml-6">
-            <a href="#" target="_blank" title="">
+            <a href="https://www.youtube.com/channel/UCnX28KQf89Yqti-qQCN5f0Q" target="_blank" title="">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
                 <path
                   d="M21.593,7.203c-0.23-0.858-0.905-1.535-1.762-1.766C18.265,5.007,12,5,12,5S5.736,4.993,4.169,5.404 c-0.84,0.229-1.534,0.921-1.766,1.778c-0.413,1.566-0.417,4.814-0.417,4.814s-0.004,3.264,0.406,4.814  c0.23,0.857,0.905,1.534,1.763,1.765c1.582,0.43,7.83,0.437,7.83,0.437s6.265,0.007,7.831-0.403c0.856-0.23,1.534-0.906,1.767-1.763 C21.997,15.281,22,12.034,22,12.034S22.02,8.769,21.593,7.203z M9.996,15.005l0.005-6l5.207,3.005L9.996,15.005z" />
@@ -56,13 +56,13 @@
         <nav>
           <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
             <li><nuxt-link class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" to="/past-events">Past Events</nuxt-link></li>
-            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="#">Submit a Talk</a></li>
-            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="#">Request a Talk / Workshop</a></li>
+            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="https://forms.gle/DHHBgtPjTd5Gm4hL6" target="_blank">Submit a Talk</a></li>
+            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="https://forms.gle/R1P5nUsSZVWVThwx7" target="_blank">Request a Talk / Workshop</a></li>
             </li>
-            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100 lg:mb-0 mb-2" href="#">Contact Us</a></li>
+            <!-- <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100 lg:mb-0 mb-2" href="#">Contact Us</a></li> -->
             <li class="hidden xl:block"><a
                 class="font-semibold bg-laracolor hover:bg-laracolor text-white px-3 py-2 rounded-lg shadow-md hover:shadow-lg ml-4"
-                href="#">Book Tickets</a></li>
+                href="https://allevents.in/rajkot/docker-from-scratch/80001055575168" target="_blank">Book Tickets</a></li>
           </ul>
         </nav>
       </div>
@@ -74,22 +74,23 @@
         <div class="relative z-10 md:max-w-2xl px-6 py-4 rounded-lg text-center shadow-lg" style="background-color: rgba(252, 50, 43, .8)">
           <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">Our next workshop</h4>
 
-          <span class="text-white text-3xl lg:text-4xl leading-relaxed tracking-wider">Docker - Do's and Dont's
+          <span class="text-white text-3xl lg:text-4xl leading-relaxed tracking-wider">Docker from Scratch
           </span>
-          <h4 class="font-normal text-white text-base lg:text-xl mt-6 mb-4"> <a href="https://twitter.com/deltasquare4" target="_blank" class="underline">Rakshit</a> will show you the tips and trick to dockerize your application, <span class="text-2xl">the correct way.</span> </h4>
+          <h4 class="font-normal text-white text-base lg:text-xl mt-6 mb-4"> <a href="https://twitter.com/deltasquare4" target="_blank" class="underline">Rakshit</a> will show you the tips and tricks to dockerize your application, <span class="text-2xl">the correct way.</span> </h4>
 
           <span class="font-normal text-white text-sm lg:text-base mt-8 tracking-none"> on <span class="inline-block bg-white pl-4 pr-2 py-2 text-headerdark rounded-lg font-bold"> 11th August 2019 </span>
           <br/>
           at
           <span class="inline-block bg-white pl-4 pr-2 py-2 mt-2 text-headerdark rounded-lg font-bold">
-           <a href="https://www.google.com/maps/place/Improwised+Technologies+Private+Limited./@22.2856467,70.7560754,15z/data=!4m5!3m4!1s0x0:0x23edc234940c18b2!8m2!3d22.2856467!4d70.7560754" target="_blank" class="tracking-wider">Improwised Technologies Private Limited</a>
+           <a href="https://www.google.com/maps/place/Improwised+Technologies+Private+Limited./@22.2856467,70.7560754,15z/data=!4m5!3m4!1s0x0:0x23edc234940c18b2!8m2!3d22.2856467!4d70.7560754" target="_blank" class="tracking-wider">Improwised Technologies Private Limited
+           </a>
          </span>
           <br/>
           from <span class="inline-block bg-white pl-4 pr-2 py-2 mt-2 text-headerdark rounded-lg font-bold">10:00 am</span>
           </span>
           <br/>
-          <a href="#"
-            class="inline-block bg-white hover:bg-white text-laracolor pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg">
+          <a href="https://allevents.in/rajkot/docker-from-scratch/80001055575168"
+            class="inline-block bg-white hover:bg-white text-laracolor pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg" target="_blank">
             <div class="flex items-center">
               <span>Book Your Spot Now (Limited Seats)</span>
               <div class="w-8 h-8 bg-laracolor text-white text-center rounded-lg p-1 ml-4">
@@ -107,7 +108,7 @@
     <div class="w-full lg:w-3/4 flex flex-wrap bg-headerdark text-white py-20 px-4 lg:px-20 lg:flex-row ">
       <div class="w-full lg:w-1/2 lg:px-16">
         <h6 class="uppercase text-sm text-gray-700 font-semibold tracking-wider">Our Next <span class="text-laracolor">Workshop</span></h6>
-        <h2 class="text-3xl font-semibold leading-tight mt-6">Docker - Do's and Dont's</h2>
+        <h2 class="text-3xl font-semibold leading-tight mt-6">Docker from scratch</h2>
         <h2 class="text-xl font-medium leading-tight mt-6">
           <img slot="icon" src="https://avatars.io/twitter/deltasquare4" class="avatar rounded">
           by
@@ -116,38 +117,41 @@
           </a>
         </h2>
 
-        <p class="text-gray-700 mt-2 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.</p>
+        <p class="text-gray-700 mt-2 leading-relaxed text-justify">A life student, and a Programmer. Inherently curious. Decision making and investments, self-improvement, distributed systems, and all things software. He is principle architect and CTO at Improwised Technologies, and has been dockerizing applications since 2015.</p>
       </div>
 
       <div class="w-full lg:w-1/2 lg:px-16 mt-16 lg:mt-0">
         <div class="w-full md:flex md:flex-row lg:flex-col md:-mx-4 lg:mx-0">
         <div class="flex md:w-1/2 lg:w-full md:mx-4 lg:mx-0">
           <div class="">
-            <h3 class="text-xl">Workshop Outline</h3>
-            <p class="mt-2 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="mt-2 leading-relaxed text-justify">This hands-on workshop is designed to cover the basics of Docker and Containers, and targeted towards Web Developers. While having web development experience will make it easy for you to understand and pick up the things we are going to cover, beginners are also welcome. We will help you individually in case you're stuck.</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             <h3 class="text-xl mt-2 text-laracolor leading-relaxed">You will learn:</h3> 
+             <ul class="list-disc text-base">
+               <li> What is Docker, and how it helps make development and deployment easier</li>
+               <li> How Docker containers work</li>
+               <li> How to run third-party software easily through Docker</li>
+               <li> How to package your application in Docker containers and run it</li>
+             </ul>
+            </p>
+            <p>
+             <h3 class="text-xl mt-2 text-laracolor leading-relaxed">Prerequisites:</h3> 
+             <ul class="list-disc text-base">
+               <li> A Laptop Computer with Linux/Mac OS X/Windows with working WiFi</li>
+               <li> An SSH Client (PuTTY for Windows. Linux and Mac has it preinstalled)</li>
+             </ul>
+            </p>
+
+            <p class="mt-2">
+              <span class="text-laracolor uppercase leading-relaxed">Note:</span> Docker Installation is not required on your local machine because we're going to be doing this workshop on remote computers.
             </p>
           </div>
         </div>
       </div>
       </div>
       <div class="flex w-full md:w-1/2 lg:w-full md:mx-4 lg:mx-0 mt-12 md:mt-0 lg:mt-12 text-center justify-center">
-          <a href="#"
-          class="inline-block bg-laracolor hover:bg-laracolor text-white pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg">
+          <a href="https://allevents.in/rajkot/docker-from-scratch/80001055575168"
+          class="inline-block bg-laracolor hover:bg-laracolor text-white pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg" target="_blank">
           <div class="flex items-center">
             <span>Book Tickets</span>
             <div class="w-8 h-8 bg-white text-laracolor text-center rounded-lg p-1 ml-4">
@@ -184,6 +188,20 @@
               <br/>
               <span class="text-headerdark">Q and A (open house)</span>
               </span>
+            </div>
+            <div class="flex flex-col items-center inline-block text-white py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 text-center justify-center">
+             <span class="pl-2 flex-row flex"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin align-text-top pr-2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              
+                Improwised Technologies Pvt. Ltd.
+              </span>
+              304 - Pride Square,<br/>Pushkardham Main Rd,<br/>Nr. J, K. Chowk,<br/>Rajkot, 360005
+            </div>
+            <div class="flex flex-col items-center inline-block text-white py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 text-center justify-center">
+             <span class="pl-2 flex-row flex"> 
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin align-text-top pr-2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+               Sunday, 11 August 2019
+              </span>
+              
             </div>
             
         </div>
