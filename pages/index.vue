@@ -179,7 +179,7 @@
               <span>
               10:30 am - 12:30 am 
               <br/>
-              <span class="text-headerdark">Docker - Do's and Dont's</span>
+              <span class="text-headerdark">Docker from scratch</span>
               </span>
             </div>
             <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 shadow-md hover:shadow-lg text-center justify-center">
