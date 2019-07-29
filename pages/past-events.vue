@@ -75,6 +75,10 @@
 </template>
 <script>
 	export default {
-
+    head () {
+    return {
+      title: 'Laravel Rajkot',
+    }
+   },
 	}
 </script>
