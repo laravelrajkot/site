@@ -214,6 +214,11 @@
 import Logo from '~/components/Logo.vue'
 
 export default {
+   head () {
+    return {
+      title: 'Laravel Rajkot',
+    }
+   },
   components: {
     Logo
   }
