@@ -60,9 +60,9 @@
             <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="https://forms.gle/R1P5nUsSZVWVThwx7" target="_blank">Request a Talk / Workshop</a></li>
             </li>
             <!-- <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100 lg:mb-0 mb-2" href="#">Contact Us</a></li> -->
-            <li class="hidden xl:block"><a
+            <!-- <li class="hidden xl:block"><a
                 class="font-semibold bg-laracolor hover:bg-laracolor text-white px-3 py-2 rounded-lg shadow-md hover:shadow-lg ml-4"
-                href="https://allevents.in/rajkot/docker-from-scratch/80001055575168" target="_blank">Book Tickets</a></li>
+                href="https://allevents.in/rajkot/docker-from-scratch/80001055575168" target="_blank">Book Tickets</a></li> -->
           </ul>
         </nav>
       </div>
@@ -70,7 +70,7 @@
   </header>
   <section class="relative bg-blue-700 px-4 lg:px-20 overflow-hidden h-screen flex items-center content-center">
       <div class="bg-cover absolute top-0 left-0 z-0 w-full h-full" style="background-image: url('images/cover-bg.jpg')"></div>
-      <div class="flex items-center content-center">
+      <!-- <div class="flex items-center content-center">
         <div class="relative z-10 md:max-w-2xl px-6 py-4 rounded-lg text-center shadow-lg" style="background-color: rgba(252, 50, 43, .8)">
           <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">Our next workshop</h4>
 
@@ -102,10 +102,22 @@
             </div>
           </a>
         </div>
+      </div>  -->
+      <div class="flex items-center content-center">
+        <div class="relative z-10 md:max-w-2xl px-6 py-4 rounded-lg text-center shadow-lg" style="background-color: rgba(252, 50, 43, .8)">
+          <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">We will be announcing our next meetup / workshop soon.</h4>
+
+          <br/>
+          <span class="font-normal text-white text-base lg:text-xl mt-6 mb-4"> Meanwhile, if you want to speak on a topic or want to take workshop, <a href="https://forms.gle/DHHBgtPjTd5Gm4hL6" target="_blank"><span class="inline-block bg-white pl-4 pr-2 py-2 text-headerdark rounded-lg font-bold">submit your proposal here</span></a></span>
+          <br/>
+          <br/>
+          <span class="font-normal text-white text-base lg:text-xl mt-6 mb-4">Else if you want to request a workshop or a talk on a specific topic, <a href="https://forms.gle/R1P5nUsSZVWVThwx7" target="_blank"> <span class="inline-block bg-white pl-4 pr-2 py-2 text-headerdark rounded-lg font-bold">let us know</span></a></span>
+          <br/>
+        </div>
       </div> 
   </section>
    <section class="relative flex flex-col lg:flex-row">
-    <div class="w-full lg:w-3/4 flex flex-wrap bg-headerdark text-white py-20 px-4 lg:px-20 lg:flex-row ">
+    <!-- <div class="w-full lg:w-3/4 flex flex-wrap bg-headerdark text-white py-20 px-4 lg:px-20 lg:flex-row ">
       <div class="w-full lg:w-1/2 lg:px-16">
         <h6 class="uppercase text-sm text-gray-700 font-semibold tracking-wider">Our Next <span class="text-laracolor">Workshop</span></h6>
         <h2 class="text-3xl font-semibold leading-tight mt-6">Docker from scratch</h2>
@@ -205,7 +217,7 @@
             </div>
             
         </div>
-    </div>
+    </div> -->
   </section>
   </div>
 </template>
