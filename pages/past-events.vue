@@ -68,17 +68,88 @@
       </div>
     </div>
   </header>
-	<section class="relative bg-blue-700 px-4 lg:px-20 overflow-hidden h-screen flex items-center text-center justify-center content-center">
-				We are currently working on this section. Please check back soon.
+	<section class="relative bg-blue-700 mt-48 px-4 lg:px-20 flex flex-wrap items-center text-center justify-center content-center">
+			    <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-3" v-for="(event, index) in pastevent" :key="index">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col" style="max-height: 700px; min-height: 700px;">
+              <iframe :src="event.coverimage" class="h-48"></iframe>
+              <div class="p-4 flex flex-col" style="">
+                <span class="mb-4 w-1/2 md:w-1/3 text-left font-bold bg-headerdark text-white text-center rounded-full p-2 text-sm">{{$moment(new Date(event.date)).format('Do MMMM YYYY')}}</span>
+                <div class="mb-4 text-grey-darker text-sm flex flex-col"">
+                  <p class="text-left text-xl text-headerdark mb-2">Agenda: </p>
+                  <div v-for="(talk,keytalks) in event.agenda" :key="keytalks" >
+                      <div class="bg-headerdark text-white p-2 rounded-lg shadow-md mb-2">
+                        <div class="row w-full flex flex-row mb-2">
+                            <div class="w-2/3 text-lg text-left font-bold">
+                              {{talk.title}}
+                          </div>
+                        <div class="w-1/3  text-right">
+                         <span class="bg-laracolor text-white p-1 rounded-full mt-2">{{talk.type}}</span>
+                        </div>
+                        </div>
+                        <div class="row w-full flex flex-row">
+                          <div class="w-1/6">
+                           <img :src="'//avatars.io/twitter/' + twitterProfile(talk.speaker)" class="mx-2 h-16 w-16 p-2 rounded-full">
+                        </div>
+
+                        <div class="w-5/6 text-left text-base">
+                         <a :href="'https://twitter.com/' + twitterProfile(talk.speaker)" target="_blank"> {{getName(talk.speaker)}}</a>
+                         <br/>
+                        </div>
+                        </div>
+                        
+                      </div>
+                   
+                    
+                   
+                  
+                  </div>
+                  <div class="row w-full flex flex-row">
+                    <div class="w-full p-2">
+                     <span class="text-left"> Venue: </span> <br/>
+                       <a :href="'https://twitter.com/' + twitterProfile(event.venue)" target="_blank" class="text-base"> {{getName(event.venue)}}</a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+
+   
+    
+
 	</section>
 </div>
 </template>
 <script>
+  import events from '../plugins/events.js';
 	export default {
+    created(){
+        this.pastevent = events.reverse();
+    },
+    methods:{
+        twitterProfile (speaker) {
+          const matches = /<@([^>]+)>/.exec(speaker)
+
+          if (matches) return matches[1]
+        },
+      getName(speaker){
+      return speaker.replace(/<[^>]+>/, '');
+      }
+    },
+    data(){
+      return{
+        pastevent:[]
+      }
+    },
     head () {
     return {
       title: 'Laravel Rajkot',
     }
-   },
+   }
 	}
 </script>
+<style>
+ 
+
+</style>

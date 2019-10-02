@@ -55,7 +55,7 @@
       <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
         <nav>
           <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-            <li><nuxt-link class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" to="/past-events">Past Events</nuxt-link></li>
+            <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="/past-events">Past Events</a></li>
             <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="https://forms.gle/DHHBgtPjTd5Gm4hL6" target="_blank">Submit a Talk</a></li>
             <li><a class="md:p-3 text-white font-medium opacity-75 hover:opacity-100" href="https://forms.gle/R1P5nUsSZVWVThwx7" target="_blank">Request a Talk / Workshop</a></li>
             </li>
