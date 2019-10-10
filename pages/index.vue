@@ -70,29 +70,29 @@
   </header>
   <section class="relative bg-blue-700 px-4 lg:px-20 overflow-hidden h-screen flex items-center content-center">
       <div class="bg-cover absolute top-0 left-0 z-0 w-full h-full" style="background-image: url('images/cover-bg.jpg')"></div>
-      <!-- <div class="flex items-center content-center">
+      <div class="flex items-center content-center">
         <div class="relative z-10 md:max-w-2xl px-6 py-4 rounded-lg text-center shadow-lg" style="background-color: rgba(252, 50, 43, .8)">
-          <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">Our next workshop</h4>
+          <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">Our next meetup</h4>
 
-          <span class="text-white text-3xl lg:text-4xl leading-relaxed tracking-wider">Docker from Scratch
+          <span class="text-white text-3xl lg:text-4xl leading-relaxed tracking-wider">October'19
           </span>
-          <h4 class="font-normal text-white text-base lg:text-xl mt-6 mb-4"> <a href="https://twitter.com/deltasquare4" target="_blank" class="underline">Rakshit</a> will show you the tips and tricks to dockerize your application, <span class="text-2xl">the correct way.</span> </h4>
-
-          <span class="font-normal text-white text-sm lg:text-base mt-8 tracking-none"> on <span class="inline-block bg-white pl-4 pr-2 py-2 text-headerdark rounded-lg font-bold"> 11th August 2019 </span>
+         <!--  <h4 class="font-normal text-white text-base lg:text-xl mt-6 mb-4"> <a href="https://twitter.com/deltasquare4" target="_blank" class="underline">Rakshit</a> will show you the tips and tricks to dockerize your application, <span class="text-2xl">the correct way.</span> </h4> -->
+         <br/>
+          <span class="font-normal text-white text-sm lg:text-base mt-8 tracking-none"> on <span class="inline-block bg-white pl-4 pr-2 py-2 text-headerdark rounded-lg font-bold"> 20th October 2019 </span>
           <br/>
           at
           <span class="inline-block bg-white pl-4 pr-2 py-2 mt-2 text-headerdark rounded-lg font-bold">
-           <a href="https://www.google.com/maps/place/Improwised+Technologies+Private+Limited./@22.2856467,70.7560754,15z/data=!4m5!3m4!1s0x0:0x23edc234940c18b2!8m2!3d22.2856467!4d70.7560754" target="_blank" class="tracking-wider">Improwised Technologies Private Limited
+           <a href="https://www.google.com/maps?ll=22.262051,70.752845&z=13&t=m&hl=en-US&gl=US&mapclient=embed&cid=10308873938467859809" target="_blank" class="tracking-wider">R. K. University City Campus
            </a>
          </span>
           <br/>
           from <span class="inline-block bg-white pl-4 pr-2 py-2 mt-2 text-headerdark rounded-lg font-bold">10:00 am</span>
           </span>
           <br/>
-          <a href="https://allevents.in/rajkot/docker-from-scratch/80001055575168"
+          <a href="https://allevents.in/rajkot/laravel-rajkot-meetup-october-2019/80002416250362"
             class="inline-block bg-white hover:bg-white text-laracolor pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg" target="_blank">
             <div class="flex items-center">
-              <span>Book Your Spot Now (Limited Seats)</span>
+              <span>Book your seat(s) now (Limited Seats)</span>
               <div class="w-8 h-8 bg-laracolor text-white text-center rounded-lg p-1 ml-4">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current" viewBox="0 0 24 24">
                   <path
@@ -102,8 +102,8 @@
             </div>
           </a>
         </div>
-      </div>  -->
-      <div class="flex items-center content-center">
+      </div> 
+      <!-- <div class="flex items-center content-center">
         <div class="relative z-10 md:max-w-2xl px-6 py-4 rounded-lg text-center shadow-lg" style="background-color: rgba(252, 50, 43, .8)">
           <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">We will be announcing our next meetup / workshop soon.</h4>
 
@@ -114,7 +114,7 @@
           <span class="font-normal text-white text-base lg:text-xl mt-6 mb-4">Else if you want to request a workshop or a talk on a specific topic, <a href="https://forms.gle/R1P5nUsSZVWVThwx7" target="_blank"> <span class="inline-block bg-white pl-4 pr-2 py-2 text-headerdark rounded-lg font-bold">let us know</span></a></span>
           <br/>
         </div>
-      </div> 
+      </div>  -->
   </section>
    <section class="relative flex flex-col lg:flex-row">
     <!-- <div class="w-full lg:w-3/4 flex flex-wrap bg-headerdark text-white py-20 px-4 lg:px-20 lg:flex-row ">
