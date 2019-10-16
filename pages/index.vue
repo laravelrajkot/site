@@ -117,53 +117,29 @@
       </div>  -->
   </section>
    <section class="relative flex flex-col lg:flex-row">
-    <!-- <div class="w-full lg:w-3/4 flex flex-wrap bg-headerdark text-white py-20 px-4 lg:px-20 lg:flex-row ">
+    <div class="w-full lg:w-3/4 flex flex-wrap bg-headerdark text-white py-20 px-4 lg:px-20 lg:flex-row ">
       <div class="w-full lg:w-1/2 lg:px-16">
-        <h6 class="uppercase text-sm text-gray-700 font-semibold tracking-wider">Our Next <span class="text-laracolor">Workshop</span></h6>
-        <h2 class="text-3xl font-semibold leading-tight mt-6">Docker from scratch</h2>
+        <h6 class="uppercase text-sm text-gray-700 font-semibold tracking-wider">Our Next <span class="text-laracolor">Meetup</span></h6>
+        <h2 class="text-3xl font-semibold leading-tight mt-6">Laravel Core: Dependency Injections and Containers</h2>
         <h2 class="text-xl font-medium leading-tight mt-6">
-          <img slot="icon" src="https://avatars.io/twitter/deltasquare4" class="avatar rounded">
+          <img slot="icon" src="https://avatars.io/twitter/hardikdangar" class="avatar rounded">
           by
-          <a href="https://twitter.com/deltasquare4" target="_blank">
-           Rakshit Menpara
+          <a href="https://twitter.com/hardikdangar" target="_blank">
+           Hardik Dangar
           </a>
         </h2>
 
-        <p class="text-gray-700 mt-2 leading-relaxed text-justify">A life student, and a Programmer. Inherently curious. Decision making and investments, self-improvement, distributed systems, and all things software. He is principle architect and CTO at Improwised Technologies, and has been dockerizing applications since 2015.</p>
+        <p class="text-gray-700 mt-2 leading-relaxed text-justify">He is co-founder of SphereRays Technolabs Pvt. Ltd. He has 10+ years of experience of shaping core ideas into architectural development and implementation.He as authored a book called Learning Laravel 4 Application Development which includes the best practices in the Laravel application development.</p>
       </div>
 
       <div class="w-full lg:w-1/2 lg:px-16 mt-16 lg:mt-0">
         <div class="w-full md:flex md:flex-row lg:flex-col md:-mx-4 lg:mx-0">
-        <div class="flex md:w-1/2 lg:w-full md:mx-4 lg:mx-0">
-          <div class="">
-            <p class="mt-2 leading-relaxed text-justify">This hands-on workshop is designed to cover the basics of Docker and Containers, and targeted towards Web Developers. While having web development experience will make it easy for you to understand and pick up the things we are going to cover, beginners are also welcome. We will help you individually in case you're stuck.</p>
-            <p>
-             <h3 class="text-xl mt-2 text-laracolor leading-relaxed">You will learn:</h3> 
-             <ul class="list-disc text-base">
-               <li> What is Docker, and how it helps make development and deployment easier</li>
-               <li> How Docker containers work</li>
-               <li> How to run third-party software easily through Docker</li>
-               <li> How to package your application in Docker containers and run it</li>
-             </ul>
-            </p>
-            <p>
-             <h3 class="text-xl mt-2 text-laracolor leading-relaxed">Prerequisites:</h3> 
-             <ul class="list-disc text-base">
-               <li> A Laptop Computer with Linux/Mac OS X/Windows with working WiFi</li>
-               <li> An SSH Client (PuTTY for Windows. Linux and Mac has it preinstalled)</li>
-             </ul>
-            </p>
-
-            <p class="mt-2">
-              <span class="text-laracolor uppercase leading-relaxed">Note:</span> Docker Installation is not required on your local machine because we're going to be doing this workshop on remote computers.
-            </p>
-          </div>
-        </div>
+          Next speaker will be announced soon.
       </div>
       </div>
       <div class="flex w-full md:w-1/2 lg:w-full md:mx-4 lg:mx-0 mt-12 md:mt-0 lg:mt-12 text-center justify-center">
-          <a href="https://allevents.in/rajkot/docker-from-scratch/80001055575168"
-          class="inline-block bg-laracolor hover:bg-laracolor text-white pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg" target="_blank">
+          <a href="https://allevents.in/rajkot/laravel-rajkot-meetup-october-2019/80002416250362"
+          class="inline-block bg-laracolor hover:bg-laracolor text-white pl-4 pr-2 py-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-8 shadow-md hover:shadow-lg" style="height:max-content;" target="_blank">
           <div class="flex items-center">
             <span>Book Tickets</span>
             <div class="w-8 h-8 bg-white text-laracolor text-center rounded-lg p-1 ml-4">
@@ -181,7 +157,7 @@
           <h4 class="font-normal font-bold text-white text-xl leading-relaxed tracking-wider">Schedule</h4>
             <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6  shadow-md hover:shadow-lg text-center justify-center dotted">
               <span>
-              10:00 am - 10:30 am 
+              09:00 am - 09:30 am 
               <br/>
               <span class="text-headerdark">Registration</span>
               </span>
@@ -189,9 +165,23 @@
             
             <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 shadow-md hover:shadow-lg text-center justify-center">
               <span>
-              10:30 am - 12:30 am 
+              10:00 am - 11:00 am 
               <br/>
-              <span class="text-headerdark">Docker from scratch</span>
+              <span class="text-headerdark">Laravel Core: Dependency Injections and Containers</span>
+              </span>
+            </div>
+            <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 shadow-md hover:shadow-lg text-center justify-center">
+              <span>
+              11:00 am - 11:30 am 
+              <br/>
+              <span class="text-headerdark">Break</span>
+              </span>
+            </div>
+            <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 shadow-md hover:shadow-lg text-center justify-center">
+              <span>
+              11:30 am - 12:30 am 
+              <br/>
+              <span class="text-headerdark">To be announced soon.</span>
               </span>
             </div>
             <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 shadow-md hover:shadow-lg text-center justify-center">
@@ -204,20 +194,20 @@
             <div class="flex flex-col items-center inline-block text-white py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 text-center justify-center">
              <span class="pl-2 flex-row flex"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin align-text-top pr-2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
               
-                Improwised Technologies Pvt. Ltd.
+                RKU City Campus
               </span>
-              304 - Pride Square,<br/>Pushkardham Main Rd,<br/>Nr. J, K. Chowk,<br/>Rajkot, 360005
+              2nd Ring Rd,<br/> Mota Mava,<br/> Rajkot, Gujarat 360005
             </div>
             <div class="flex flex-col items-center inline-block text-white py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 text-center justify-center">
              <span class="pl-2 flex-row flex"> 
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin align-text-top pr-2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-               Sunday, 11 August 2019
+               Sunday, 20 October 2019
               </span>
               
             </div>
             
         </div>
-    </div> -->
+    </div>
   </section>
   </div>
 </template>
