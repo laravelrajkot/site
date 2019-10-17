@@ -133,8 +133,19 @@
       </div>
 
       <div class="w-full lg:w-1/2 lg:px-16 mt-16 lg:mt-0">
+      <h6 class="uppercase text-sm text-gray-700 font-semibold tracking-wider">&nbsp;</h6>
         <div class="w-full md:flex md:flex-row lg:flex-col md:-mx-4 lg:mx-0">
-          Next speaker will be announced soon.
+                 <h2 class="text-3xl font-semibold leading-tight mt-6">Laravel Vapor: Serverless magic for PHP</h2>
+        <h2 class="text-xl font-medium leading-tight mt-6">
+          <img slot="icon" src="https://avatars.io/twitter/diku_patel" class="avatar rounded">
+          by
+          <a href="https://twitter.com/diku_patel" target="_blank">
+           Chintan Banugaria
+          </a>
+        </h2>
+
+        <p class="text-gray-700 mt-2 leading-relaxed text-justify">He is full stack developer / director at Emrys Technologies having experience of more than 8+ years. He will talk about the newly introduce Laravel Vapor, a serverless platform for the Laravel applications. He will briefly introduce the core concepts of Serverless and deploy a demo application on the vapor.
+        </p>
       </div>
       </div>
       <div class="flex w-full md:w-1/2 lg:w-full md:mx-4 lg:mx-0 mt-12 md:mt-0 lg:mt-12 text-center justify-center">
@@ -181,7 +192,7 @@
               <span>
               11:30 am - 12:30 am 
               <br/>
-              <span class="text-headerdark">To be announced soon.</span>
+              <span class="text-headerdark">Laravel Vapor: Serverless magic for PHP</span>
               </span>
             </div>
             <div class="flex items-center inline-block bg-white hover:bg-white text-laracolor py-3 pl-4 pr-2 lg:py-3 lg:pl-5 lg:pr-4 font-bold rounded-lg mt-6 shadow-md hover:shadow-lg text-center justify-center">
