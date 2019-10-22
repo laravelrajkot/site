@@ -70,13 +70,12 @@
   </header>
   <section class="relative bg-blue-700 px-4 lg:px-20 overflow-hidden h-screen flex items-center content-center">
       <div class="bg-cover absolute top-0 left-0 z-0 w-full h-full" style="background-image: url('images/cover-bg.jpg')"></div>
-      <div class="flex items-center content-center">
+      <!-- <div class="flex items-center content-center">
         <div class="relative z-10 md:max-w-2xl px-6 py-4 rounded-lg text-center shadow-lg" style="background-color: rgba(252, 50, 43, .8)">
           <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">Our next meetup</h4>
 
           <span class="text-white text-3xl lg:text-4xl leading-relaxed tracking-wider">October'19
           </span>
-         <!--  <h4 class="font-normal text-white text-base lg:text-xl mt-6 mb-4"> <a href="https://twitter.com/deltasquare4" target="_blank" class="underline">Rakshit</a> will show you the tips and tricks to dockerize your application, <span class="text-2xl">the correct way.</span> </h4> -->
          <br/>
           <span class="font-normal text-white text-sm lg:text-base mt-8 tracking-none"> on <span class="inline-block bg-white pl-4 pr-2 py-2 text-headerdark rounded-lg font-bold"> 20th October 2019 </span>
           <br/>
@@ -102,8 +101,8 @@
             </div>
           </a>
         </div>
-      </div> 
-      <!-- <div class="flex items-center content-center">
+      </div>  -->
+      <div class="flex items-center content-center">
         <div class="relative z-10 md:max-w-2xl px-6 py-4 rounded-lg text-center shadow-lg" style="background-color: rgba(252, 50, 43, .8)">
           <h4 class="font-normal text-white text-xl leading-relaxed tracking-wider">We will be announcing our next meetup / workshop soon.</h4>
 
@@ -114,9 +113,9 @@
           <span class="font-normal text-white text-base lg:text-xl mt-6 mb-4">Else if you want to request a workshop or a talk on a specific topic, <a href="https://forms.gle/R1P5nUsSZVWVThwx7" target="_blank"> <span class="inline-block bg-white pl-4 pr-2 py-2 text-headerdark rounded-lg font-bold">let us know</span></a></span>
           <br/>
         </div>
-      </div>  -->
+      </div> 
   </section>
-   <section class="relative flex flex-col lg:flex-row">
+   <!-- <section class="relative flex flex-col lg:flex-row">
     <div class="w-full lg:w-3/4 flex flex-wrap bg-headerdark text-white py-20 px-4 lg:px-20 lg:flex-row ">
       <div class="w-full lg:w-1/2 lg:px-16">
         <h6 class="uppercase text-sm text-gray-700 font-semibold tracking-wider">Our Next <span class="text-laracolor">Meetup</span></h6>
@@ -219,7 +218,7 @@
             
         </div>
     </div>
-  </section>
+  </section> -->
   </div>
 </template>
 
