@@ -18,7 +18,7 @@
     "frontmatter": "0.0.3",
     "fs": "0.0.1-security",
     "globby": "^10.0.1",
-    "nuxt": "^2.9.2",
+    "nuxt": "^2.15.8",
     "path": "^0.12.7"
   },
   "devDependencies": {
